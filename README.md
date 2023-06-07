@@ -1,6 +1,8 @@
 # Construction
 
 I don't have in-progress build photos.
+
+## Components
 The base under the upper two boards is an Adafruit FeatherWing Doubler prototyping add-on https://www.adafruit.com/product/2890.
 
 The particulate matter sensor is an Adafruit PMSA003I https://www.adafruit.com/product/4632
@@ -13,7 +15,11 @@ The microcontroller is an Adafruit Feather ESP32 Feather V2 https://www.adafruit
 
 These all use the STEMMA QT connector cable and I2C. This allows all the sensors to be daisy chained together. This should work with any wifi-enabled board such as the ESP8266, as long as you have the required connections to pair with the STEMMA QT platform.
 
+To mount the sensors, I hot glued them to a piece of scrap wood and hung it on the pegboard above my workbench.
 
+![The sensors assembled on a wooden base and mounted on the wall](images/sensor_assembled.jpg)
+
+The total cost was approximately $160.
 
 # The code
 
